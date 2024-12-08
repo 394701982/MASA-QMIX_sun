@@ -39,6 +39,7 @@ class Plane:
         self.static_job_list = job_object_list  # 表示不会变的总任务列表
         self.finished_job = []  # 完成的任务
         self.left_job = [eve for eve in job_object_list]   # 剩下的任务
+
         self.time_spent = 0  # 花费的时间
         # self.is_idle = False  # true代表正在完成任务，false代表空闲
         self.site_history = []  # 存储每一步完成保障作业所在的战位
